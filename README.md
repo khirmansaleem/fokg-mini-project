@@ -16,6 +16,34 @@ outputs/result.ttl
 This file is used for GERBIL evaluation on **SW 2022 Test**.
 
 ---
+## How to Run Quickly
+
+The project can be run directly from the terminal.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/khirmansaleem/fokg-mini-project.git
+cd fokg-mini-project
+```
+
+Install the required packages:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Run the project:
+
+```bash
+python main.py
+```
+
+After the script finishes, the final result file will be generated here:
+
+```text
+outputs/result.ttl
+```
 
 ## Project Structure
 
